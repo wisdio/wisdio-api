@@ -91,7 +91,9 @@ Response JSON:
 
   * `input_params`:
 
+```
     {'agreed': agreed, 'fname': fname, 'lname': lname, 'email': email, 'password': password}
+```
 
   * `agreed`: Boolean
   * `fname`: String
@@ -101,7 +103,9 @@ Response JSON:
 
   * `errors`:
 
+```
     {['agreed': err_str][, 'fname': err_str][, 'lname': err_str][, 'email': err_str][, 'password': err_str]}
+```
 
   * `err_str`: String
 
@@ -248,7 +252,9 @@ Response JSON:
 
   `answer_description`:
 
+```
     {'aid': answer_identifier, 'lang': answer_language, 'answer': answer_body, 'score': answer_score, 'uid': author_id, 'comments': comment_list, 'cdate': creation_date}
+```
 
   * `answer_identifier`: String
   * `answer_language`: String
@@ -260,7 +266,9 @@ Response JSON:
 
   `comment_description`:
 
+```
     {'cid': comment_identifier, 'lang': comment_language, 'comment': comment_body, 'uid': author_id, 'cdate': creation_date}
+```
 
   * `comment_identifier`: String
   * `comment_language`: String

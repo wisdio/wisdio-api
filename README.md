@@ -11,6 +11,16 @@ Modification date: 2011-09-20 16:41 CEST
 
 Copyright (C) Wisdio S.A. (2014).  All Rights Reserved.
 
+#API Table of Content
+
+* [/register](#1-register) - User registration
+* [/ask](#2-ask-question) - Ask question
+* [/addanswer](#3-answer-question) - Answer question
+* [/question](#4-get-question) - Get question content
+* [/profile](#5-get-user-profile) - Get user profile
+* [/comment/question](#6-comment-question) - Comment question
+* [/comment/answer](#7-comment-answer) - Comment answer
+
 #Description
 
 ##Base URL
